@@ -1,0 +1,19 @@
+# Fichiers système macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Caches Python
+__pycache__/
+*.pyc
+
+# Images DICOM : jamais sur GitHub (trop lourdes ; les en-têtes peuvent porter le nom du propriétaire de l'animal)
+dicom/
+*.dcm
+DICOMDIR
+
+# Résultats produits par l'application (les exemples partagés sont dans exemples/)
+/resultats/
+
+# Fichiers refaits par des scripts
+*.zip
+segmentation_maillage/etude_convergence/abaqus/

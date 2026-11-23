@@ -1,0 +1,4 @@
+# fichiers Abaqus : refaits par « python etude_femur.py --inp » (plusieurs centaines de Mo)
+abaqus/
+# les résultats de l'étude sont suivis (le .gitignore du dépôt ignore les dossiers resultats/)
+!resultats/
